@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phishing-awareness-platform"
+version = "0.1.0"
+description = "Authorized-use-only, simulation-only LLM-powered phishing awareness training platform. Never sends real email."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Proprietary - Internal Security Awareness Use Only" }
+dependencies = [
+    "click>=8.1,<9",
+]
+
+[project.optional-dependencies]
+llm = ["openai>=1.0,<2"]
+dev = ["pytest>=7.4", "pytest-cov>=4.1"]
+
+[project.scripts]
+phishing-sim = "phishing_sim.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

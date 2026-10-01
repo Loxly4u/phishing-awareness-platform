@@ -1,0 +1,17 @@
+{
+  "targets": [
+    {"name": "Employee1", "email": "employee1@fictionalcorp.test", "department": "Finance", "role": "Accountant"},
+    {"name": "Employee2", "email": "employee2@fictionalcorp.test", "department": "Finance", "role": "Accounts Payable Clerk"},
+    {"name": "Employee3", "email": "employee3@fictionalcorp.test", "department": "Finance", "role": "Financial Analyst"},
+    {"name": "Employee4", "email": "employee4@fictionalcorp.test", "department": "HR", "role": "HR Generalist"},
+    {"name": "Employee5", "email": "employee5@fictionalcorp.test", "department": "HR", "role": "Recruiter"},
+    {"name": "Employee6", "email": "employee6@fictionalcorp.test", "department": "HR", "role": "HR Manager"},
+    {"name": "Employee7", "email": "employee7@fictionalcorp.test", "department": "Engineering", "role": "Software Engineer"},
+    {"name": "Employee8", "email": "employee8@fictionalcorp.test", "department": "Engineering", "role": "QA Engineer"},
+    {"name": "Employee9", "email": "employee9@fictionalcorp.test", "department": "Engineering", "role": "DevOps Engineer"},
+    {"name": "Employee10", "email": "employee10@fictionalcorp.test", "department": "Engineering", "role": "Engineering Manager"},
+    {"name": "Employee11", "email": "employee11@fictionalcorp.test", "department": "Sales", "role": "Account Executive"},
+    {"name": "Employee12", "email": "employee12@fictionalcorp.test", "department": "Sales", "role": "Sales Development Rep"},
+    {"name": "Employee13", "email": "employee13@fictionalcorp.test", "department": "Sales", "role": "Sales Manager"}
+  ]
+}
